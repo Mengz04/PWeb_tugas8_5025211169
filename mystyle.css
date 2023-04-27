@@ -1,0 +1,28 @@
+@font-face {
+    font-family: GothBL;
+    src: url(./src/Gotham-Black.otf);
+}
+
+.gothBL{
+    font-family: GothBL;
+}
+
+@media (min-width: 768px){
+    #titleIdx{
+        font-size: 4vw;
+    }
+    
+    #subTitleIdx{
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 767.98px){
+    #titleIdx{
+        font-size: 7vw;
+    }
+    
+    #subTitleIdx{
+        font-size: 5vw;
+    }
+}
