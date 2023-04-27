@@ -11,6 +11,8 @@ Nama: Thariq Agfi Hermawan
 
 NRP: 5025211215
 
+## Detail
+
 Kelas: Pemrograman Web (A)
 
 Tahun Ajaran: 2022/2023
