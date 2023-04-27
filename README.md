@@ -18,3 +18,11 @@ Kelas: Pemrograman Web (A)
 Tahun Ajaran: 2022/2023
 
 Tugas membuat page silaturahmi online menggunakan php
+
+## Note:
+Jika ingin login sebagai admin/pejabat terkait login credentialnya adalah
+**
+email: admin
+
+password: admintest123
+**
