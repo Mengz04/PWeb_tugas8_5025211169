@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>OPEN HOUSE VIRTUAL</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,25 +14,30 @@
 			<div class="container col pl-5">
 				<header>
 					<h1 id="titleIdx" class="gothBL text-center text-md-left text-xl-left">Open House Virtual</h1>
-					<h3 id="subTitleIdx" class="gothBL text-center text-md-left text-xl-left">Silaturahmi Bareng</h3>
+					<h3 id="subTitleIdx" class="gothBL text-center text-md-left text-xl-left">Silaturahmi Bersama</h3>
 				</header>
-				<div class="col text-center text-md-left text-xl-left p-0">
-					<a class="btn btn-primary btn-lg mx-auto mt-4" href="form-login.php" role="button">Login</a>
+				<div class='d-flex mb-5'>
+					<div class="col text-center text-md-left text-xl-left p-0">
+						<a class="btn btn-primary btn-lg mx-auto mt-4" href="form-login.php" role="button">Login</a>
+					</div>
+					<!-- <div class="col text-center text-md-left text-xl-left p-0 pt-2">
+						<a class="mx-auto" href="form-daftar.php" role="button">Sign up</a>
+					</div> -->
+					<div class="col text-center text-md-left text-xl-left p-0">
+						<a class="btn btn-primary btn-lg mx-auto mt-4" href="form-daftar.php" role="button">Sign Up</a>
+					</div>
 				</div>
-				<div class="col text-center text-md-left text-xl-left p-0 pt-2">
-					<a class="mx-auto" href="form-daftar.php" role="button">Sign up</a>
-				</div>
-				<?php if(isset($_GET['status'])): ?>
-				<p>
-					<?php
-						if($_GET['status'] == 'sukses'){
+				<?php if (isset($_GET['status'])) : ?>
+					<p class="text-info">
+						<?php
+						if ($_GET['status'] == 'sukses') {
 							echo "Pendaftaran akun baru berhasil!";
 						} else {
 							echo "Pendaftaran gagal!";
 						}
-					?>
-				</p>
-				<?php endif; ?> 
+						?>
+					</p>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>
@@ -40,7 +46,7 @@
 			<img src="./src/index-poster.png" class="w-75 my-3 mx-auto d-block align-center">
 		</div>
 	</div>
-	
+
 </body>
 
 </html>

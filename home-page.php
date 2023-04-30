@@ -13,7 +13,7 @@
 <body class="vh-100 vw-100 bg-image" style="background-image: url('./src/ramadhan-pattern.png'); background-size: cover; height: 100vh;">
 	<div class="d-flex vh-100 vw-100 mask" style="background-color: rgba(0, 0, 0, 0.6)">
 		<div class="d-flex col container align-self-center">
-			<div class="container col-md-6 bg-light align-center p-4">
+			<div class="container col-md-6 bg-light align-center p-4 rounded-lg">
 				<div class="col align-center">
 					<header>
 						<h4 class="text-center gothBL mb-3">Hello,
@@ -27,8 +27,8 @@
 					</header>
 					<?php
 						if($row['U_pesan'] == null){
-							echo "<p class='text-center'>you haven't made a message</p>";
-							echo "<p class='text-center'><a href='form-pesan.php?id=".$id."'>make new message!</a></p>";
+							echo "<p class='text-center'>You haven't made a message</p>";
+							echo "<p class='text-center'><a href='form-pesan.php?id=".$id."'>Make new message here!</a></p>";
 						}
 						else{
 							echo "<table border='0'><tr>";
@@ -38,7 +38,7 @@
 							echo "</tr></table>";
 							
 							if($row['U_reply'] == null){
-								echo "<p class='text-center'>Belum ada reply! mohon ditunggu &#128079;</p>";
+								echo "<p class='text-center'>Belum ada reply! Mohon ditunggu &#128079;</p>";
 							}
 							else{
 								echo "<table border='0'><tr>";

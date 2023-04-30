@@ -11,7 +11,7 @@
 <body class="vh-100 vw-100 bg-image" style="background-image: url('./src/ramadhan-pattern.png'); background-size: cover; height: 100vh;">
 	<div class="d-flex vh-100 vw-100 mask" style="background-color: rgba(0, 0, 0, 0.6)">
 		<div class="d-flex col container align-self-center">
-			<div class="container col-md-6 bg-light align-center p-4">
+			<div class="container col-md-6 bg-light align-center p-4 rounded-lg">
 				<div class="col align-center">
 					<header>
 						<h4 class="text-center gothBL mb-3">Sign Up Contact Book</h4>
@@ -21,22 +21,22 @@
 						<fieldset>
 						<p>
 							<label for="email">Email:</label>
-							<input type="text" class="form-control form_data" name="email" placeholder="alamat email" />
+							<input type="text" class="form-control form_data" name="email" placeholder="thoriq.aghfi60@gmail.com" />
 							<span id="email_error" class="text-danger"></span>
 						</p>
 						<p>
 							<label for="password">Password:</label>
-							<input type="text" class="form-control form_data" name="password" placeholder="password email" />
+							<input type="password" class="form-control form_data" name="password" placeholder="Enter Your Password Here!" />
 							<span id="pw_error" class="text-danger"></span>
 						</p>
 						<p>
 							<label for="nama">Nama:</label>
-							<input type="text" class="form-control form_data" name="nama" placeholder="nama lengkap" />
+							<input type="text" class="form-control form_data" name="nama" placeholder="Enter Your Name Here!" />
 							<span id="nama_error" class="text-danger"></span>
 						</p>
 						<p>
 							<label for="alamat">Alamat: </label>
-							<input type="text" class="form-control form_data" name="alamat" placeholder="alamat lengkap" />
+							<input type="text" class="form-control form_data" name="alamat" placeholder="Enter Your Address Here!" />
 							<span id="alamat_error" class="text-danger"></span>
 						</p>
 						<p>
@@ -59,10 +59,9 @@
 						<p class="text-center">
 							<input id="daftar" type="button" class="btn btn-success" value="Daftar" name="daftar" onclick="save_data(); return false;" />
 						</p>
-						
 						</fieldset>
-					
 					</form>
+					<p>Have an account? <span id="" class="text-primary"><a href="form-login.php">Login Here</a></span></p>
 				</div>
 			</div>
 		</div>

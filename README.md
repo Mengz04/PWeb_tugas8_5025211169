@@ -11,6 +11,12 @@ Nama: Thariq Agfi Hermawan
 
 NRP: 5025211215
 
+## Anggota 3:
+
+Nama: Rayhan Arvianta Bayuputra
+
+NRP: 5025211217
+
 ## Detail
 
 Kelas: Pemrograman Web (A)
